@@ -34,3 +34,5 @@ pwd: password
 
 ## Docker
 docker pull caescobar17/moviecatalog_challenge:latest
+
+https://hub.docker.com/r/caescobar17/moviecatalog_challenge/tags
