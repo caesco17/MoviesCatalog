@@ -26,3 +26,6 @@ user@gmail.com
 admin@gmail.com
 
 pwd: password
+
+## Docker
+docker pull caescobar17/moviecatalog_challenge:latest
