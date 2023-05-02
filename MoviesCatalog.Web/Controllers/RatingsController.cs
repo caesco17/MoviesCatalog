@@ -45,7 +45,7 @@ namespace MoviesCatalog.Web.Controllers
 
             //Validate if not exist
             var rating_exists = await _movieRatingsService.GetRatingByMovieAndUser(id, userId);
-            if (movie == null)
+            if (movie != null)
                 return StatusCode((int)HttpStatusCode.NotModified);
 
             var rating = await _movieRatingsService.CreateRate(new Ratings()
